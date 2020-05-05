@@ -1,0 +1,20 @@
+{
+"name": "LavalinkOnHeroku",
+ "description": "Host your private lavalink music client on Heroku.",
+   "keywords": [
+    "lavalink",
+    "discord-music-streaming",
+    "free"
+  ],
+   "repository": "https://github.com/IamTheRealSami/LavalinkOnHeroku",
+     "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ],
+   "env": {
+    "PASSWORD": {
+      "description": "Password for the lavalink server to authenticate."
+    }
+   }
+}

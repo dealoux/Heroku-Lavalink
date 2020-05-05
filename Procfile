@@ -1,1 +1,1 @@
-web: node lavalink.js
+web: python3 lavalink.py
