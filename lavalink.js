@@ -7,7 +7,7 @@ if(process.env.PORT){
 }
 
 if(process.env.PASSWORD){
-	application = application.replace('youshallnotpass', process.env.PASSWORD)
+	application = application.replace('DYNAMICPASSWORD', process.env.PASSWORD)
 }
 fs.writeFileSync('./application.yml', application)
 
